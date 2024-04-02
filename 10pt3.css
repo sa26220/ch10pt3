@@ -1,0 +1,23 @@
+/*The background color is changed to set to that of maroon.*/
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: maroon;
+  }
+  
+  /*The background color is set to lightgoldenrodyellow. Padding is set to 25px on the top, 10px for left and right and 5px for the bottom.*/
+  .flex-container > div {
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 25px 10px 5px 10px;
+  }
+
+  /*Width and height are both applied at 150px in CSS to keep all images symmetrical.*/
+  img {
+    width: 150px;
+    height: 150px;
+  }
